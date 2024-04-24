@@ -1,0 +1,2 @@
+def add_transaction_to_block(sender, recipient, amount):
+    blockchain.current_block.transactions.append(Transaction(sender, recipient, amount))
